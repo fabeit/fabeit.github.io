@@ -9,6 +9,8 @@
 */
 
 /* this code is to parse email address and reverse it */
+span.ltrText {unicode-bidi: bidi-override; direction: rtl}
+
 .e-mail:before {
         content: attr(data-website) "\0040" attr(data-user);
         unicode-bidi: bidi-override;
@@ -2724,8 +2726,8 @@ input, select, textarea {
 				#header.alt .logo img {
 					border: 8px solid rgba(0, 0, 0, .5);
   					/* display: block; */
-					margin: 1em 1em 1em 0;
-					max-width: 25vw;
+					margin: 5em 1em 5em 0;
+					max-width: 20vw;
 					border-radius:100%;
 					
 				}
