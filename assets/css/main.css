@@ -2727,7 +2727,7 @@ input, select, textarea {
 					border: 8px solid rgba(0, 0, 0, .5);
   					/* display: block; */
 					margin: 0em 1em 0em 0;
-					max-width: 20vw;
+					max-width: 15vw;
 					border-radius:100%;
 					
 				}
